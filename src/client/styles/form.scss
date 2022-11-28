@@ -1,0 +1,390 @@
+
+
+
+
+
+
+.theform {
+    border: 3px solid rgb(27, 150, 172);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+ width: fit-content;
+justify-content: center;
+text-align: center;
+margin: auto;
+
+
+}
+
+input{
+    
+    padding: 5px 20px;
+
+ width: 600px;
+   font-size: large;
+    margin: 10px 0;
+  
+}
+
+
+button{
+ 
+    padding: 5px 5px;
+
+    
+   width: fit-content;
+   margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+   
+   
+    font-weight: 500;
+    font-size: 30px;
+}
+
+h3{
+    color: whitesmoke;
+
+}
+
+#error {
+    text-align: center;
+    justify-content: center;
+    color: rgb(109, 29, 29);
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ 
+}
+
+.flexbox__leftside{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#major__flex{
+    display: flex;
+    flex-direction: row;
+justify-content: flex-start;
+gap: 25%;
+   
+}
+
+#text__section{
+    margin: 0;
+}
+
+p{
+    color: white;
+}
+
+#error{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#results{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+#text{
+    width: 600px;
+    height: 500px;
+    overflow: scroll;
+    overflow: auto;
+    font-size: 20px;
+   
+   
+}
+
+#agreement {
+    font-size: 30px;
+}
+
+#confidence {
+    font-size: 30px;
+}
+
+#irony {
+    font-size: 30px;
+}
+
+#subjectivity {
+    font-size: 30px;
+}
+
+
+
+#results__container{
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+  
+   
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 250px) and (max-width: 600px){
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#major__flex{
+    display: flex;
+    flex-direction: column;
+ 
+   
+}
+
+.flexbox__leftside{
+   
+   text-align: center;
+}
+
+
+input{
+    
+    padding: 5px 20px;
+
+ width: 200px;
+   font-size: medium;
+    margin: 10px 0;
+  
+}
+
+#text__section{
+    text-align: center;
+    justify-content: center;
+}
+
+#text{
+    width: auto;
+    height: 150px;
+    font-size: 20px;
+  
+  text-align: center;
+    font-size: 16px;
+   
+   
+}
+
+#agreement {
+    font-size: 18px;
+}
+
+#confidence {
+    font-size: 18px;
+}
+
+#irony {
+    font-size: 18px;
+}
+
+#subjectivity {
+    font-size: 18px;
+}
+
+#results{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width:600px) and (max-width: 979px){
+    .flexbox{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
+    #major__flex{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .flexbox__leftside{
+       
+       text-align: center;
+    }
+    
+    
+    input{
+        
+        padding: 5px 20px;
+    
+     width: 400px;
+       font-size: large;
+        margin: 10px 0;
+      
+    }
+    
+    #text__section{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #text{
+        width: auto;
+        height: 150px;
+        
+      
+      text-align: center;
+        font-size: 24px;
+       
+       
+    }
+    
+    #agreement {
+        font-size: 22px;
+    }
+    
+    #confidence {
+        font-size: 22px;
+    }
+    
+    #irony {
+        font-size: 22px;
+    }
+    
+    #subjectivity {
+        font-size: 22px;
+    }
+    
+    #results{
+        text-align: center;
+        font-size: 25px;
+    
+    }
+
+    button{
+        font-size: 16px;
+    }
+
+    #error{
+        font-size: 18px;
+    }
+    
+
+
+}
+
+
+@media only screen and (min-width:980px) and (max-width: 1500px){
+
+    .flexbox{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
+    #major__flex{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .flexbox__leftside{
+       
+       text-align: center;
+    }
+    
+    
+    input{
+        
+        padding: 5px 20px;
+    
+     width: 400px;
+       font-size: large;
+        margin: 10px 0;
+      
+    }
+    
+    #text__section{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #text{
+        width: auto;
+        height: 150px;
+        
+      
+      text-align: center;
+        font-size: 24px;
+       
+       
+    }
+    
+    #agreement {
+        font-size: 22px;
+    }
+    
+    #confidence {
+        font-size: 22px;
+    }
+    
+    #irony {
+        font-size: 22px;
+    }
+    
+    #subjectivity {
+        font-size: 22px;
+    }
+    
+    #results{
+        text-align: center;
+        font-size: 25px;
+    
+    }
+
+    button{
+        font-size: 16px;
+    }
+
+    #error{
+        font-size: 18px;
+    }
+    
+
+
+}
+
+
+
+

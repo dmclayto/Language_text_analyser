@@ -1,0 +1,38 @@
+
+body {
+   
+  background-image: url(/src/client/media/home_background.png);
+  background-size: cover;
+    
+}
+
+
+section {
+    
+    margin: 50px 50px;
+    min-height: 80vh;
+  
+ 
+}
+
+@media (min-width: 250px) and (max-width: 600px){
+body{
+  text-align: center;
+}
+
+}
+
+
+
+
+@media only screen and (min-width:600px) and (max-width: 979px){
+
+  section {
+    
+    
+    min-height: 100vh;
+ 
+}
+
+
+}
