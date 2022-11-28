@@ -23,7 +23,7 @@ function handleSubmit(event) {
     const info = `${baseURL}${myKey}${urlApiText}${formText}${lang}`;
     cloudApi (info)
     .then ((data)=> {
-        postData("https://nlp-webapplication.herokuapp.com/postData",{agreement: data.agreement, confidence: data.confidence, irony: data.irony, subjectivity: data.subjectivity})
+        postData("https://languageanalyser.herokuapp.com/postData",{agreement: data.agreement, confidence: data.confidence, irony: data.irony, subjectivity: data.subjectivity})
      
         .then (()=>{
             updateUI ();
@@ -73,7 +73,7 @@ const postData = async( url, data = {}) => {
 //Update the UI
 const updateUI = async () =>{
     try{
-    const req = await fetch("https://nlp-webapplication.herokuapp.com/getData");
+    const req = await fetch("https://languageanalyser.herokuapp.com/getData");
   
   const allData = await req.json ();
    document.getElementById('text').innerHTML = `<p>${name.value}  </p>`;
