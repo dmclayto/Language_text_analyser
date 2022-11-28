@@ -74,4 +74,4 @@ app.post("/postData", (req, res)=> {
 })
 
 
-module.exports = {app, server};
+//module.exports = {app, server};
