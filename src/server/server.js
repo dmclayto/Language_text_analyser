@@ -3,9 +3,9 @@ let projectData = {};
 
 
 
-const dotenv = require('dotenv');
-dotenv.config();
-const path = require('path');
+//const dotenv = require('dotenv');
+//dotenv.config();
+//const path = require('path');
 //const fetch = require('node-fetch')
 const express = require('express');
 const mockAPIResponse = require('./mockAPI.js');
